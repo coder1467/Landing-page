@@ -10,7 +10,7 @@
 header {
     background-color: #1F2937;
     color: #F9FAF8;
-    padding: 30px 90px 60px 90px;
+    padding: 30px 120px 100px 120px;
     display: flex;
     flex-direction: column;
     gap: 65px;
@@ -55,6 +55,10 @@ header {
     margin-bottom: 12px;
 }
 
+.text {
+    width: 500px;
+}
+
 .text button {
     padding: 6px 25px;
     background-color: #3882F6;
@@ -77,8 +81,8 @@ header {
 
 .image {
     background-color: gray;
-    height: 200px;
-    width: 450px;
+    height: 250px;
+    width: 500px;
     text-align: center;
-    line-height: 200px;
+    line-height: 250px;
 }
