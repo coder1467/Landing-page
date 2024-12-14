@@ -33,7 +33,7 @@ header {
 
 .links a {
     text-decoration: none;
-    font-weight: 200;
+    font-weight: 300;
     color: #E5E7EB;
     margin: 6px;
 }
@@ -51,7 +51,7 @@ header {
 .secondary {
     font-size: 18px;
     color: #E5E7EB;
-    font-weight: 200;
+    font-weight: 300;
     margin-bottom: 12px;
 }
 
@@ -156,3 +156,42 @@ header {
     margin-left: 480px;
 }
 
+/* Sign Up */
+.signup {
+    padding: 72px;
+    display: flex;
+    justify-content: center;
+}
+
+.blueBox {
+    width: 80%;
+    background-color: #3882F6;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+    
+    /* gap: 72px; */
+}
+
+.signupText > p:nth-child(1){
+    color: #F9FAF8;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.signupText > p:nth-child(2){
+    color: #e5e7eb;
+    font-size: 16px;
+}
+
+.blueBox button {
+    background-color: #3882F6;
+    color: #e5e7eb;
+    padding: 2px 36px;
+    border: solid #e5e7eb;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 16px;
+}
